@@ -17,7 +17,7 @@
            <configuration>
      <includes>
 <!-- the java file name is added here in the surefire configurartion -->
-     <exclude>**/*lOgin_runner.java</exclude>
+     <exclude>**/*india_portal_runner.java</exclude>
      </includes>
      </configuration>
         </plugin>

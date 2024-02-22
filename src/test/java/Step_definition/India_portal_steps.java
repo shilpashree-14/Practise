@@ -20,14 +20,14 @@ public class India_portal_steps {
 		WebDriverManager.chromedriver().setup();
 		driver=new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		//driver.get("https://www.india.gov.in/user/register");
+	//	driver.get("https://www.india.gov.in/user/register");
 	driver.manage().window().maximize();
 		Thread.sleep(2000);
    }
 
 	@Given("User click on register")
 	public void user_click_on_register() {
-	    driver.get("https://www.india.gov.in/user/register");
+	   driver.get("https://www.india.gov.in/user/register");
 	}
 
 	@When("User enter username, email address")
