@@ -18,14 +18,12 @@
 #Sample Feature Definition Template
 @tag
 Feature: V1 Training Form
-  
-
   @tag1
-  Scenario: To verify the simple form
-    Given User opens the browser and navigate to V1 training for website
+  Scenario: To verify the simple form 
+    Given User opens the browser and navigate to V1 training form for website
     When  User enters First name, Last name, Email
     And   User enters Contact Number, Message
-    And   User clicks on Submit
-    Then  A confirmation pop-up should displayed 
+    And   User click on Submit
+    Then  User get the confirmation pop-up
 
  
